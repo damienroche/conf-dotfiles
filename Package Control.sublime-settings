@@ -1,0 +1,13 @@
+{
+	"bootstrapped": true,
+	"installed_packages":
+	[
+		"Emmet",
+		"Git Gutter",
+		"All Autocomplete",
+		"SCSS",
+		"Babel",
+		"Package Control",
+		"SideBarEnhancements"
+	]
+}
