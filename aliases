@@ -1,4 +1,4 @@
 # Get external IP / local IPs
 alias ip="curl ipinfo.io/ip"
-alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
+alias ips="ifconfig | grep "inet " | cut -d " " -f2'"
 alias speedtest="wget -O /dev/null http://ipv4.rbx.proof.ovh.net/files/10Mio.dat"
