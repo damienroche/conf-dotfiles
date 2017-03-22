@@ -1,7 +1,2 @@
-# Get external IP / local IPs
-display_ips() {
-	ifconfig | grep "inet " | cut -d " " -f2
-}
 alias ip="curl ipinfo.io/ip"
-alias ips = display_ips
 alias speedtest="wget -O /dev/null http://ipv4.rbx.proof.ovh.net/files/10Mio.dat"
